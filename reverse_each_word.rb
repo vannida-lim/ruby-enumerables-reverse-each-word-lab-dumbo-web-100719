@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   reversed = []
   words.each do {|index|}
     currentword = words[index]
-    
+    reversed_word = currentword.!reverse
   end
 
  
