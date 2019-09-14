@@ -1,6 +1,6 @@
 def reverse_each_word(sentence)
-  reverse = sentence.split(/  /).reverse()
-  puts 'hihihi' 
+  reverse = sentence.split(/ /).reverse()
+  puts reverse 
   # reversed = []
   # sentence.each do {|sentence|}
   #   puts sentence.reverse
