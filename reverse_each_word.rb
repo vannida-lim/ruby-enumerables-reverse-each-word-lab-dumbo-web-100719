@@ -9,7 +9,7 @@ def reverse_each_word(sentence)
     reversed_words.push(reversed_word)
   end
 
-  puts 'result list ---'
+  puts 'result list >>>>>'
   puts reversed_words
   return reversed_words.join(/ /)
 end
