@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   words.each do |current_word|
     reversed_word = current_word.reverse!
     # concat each word
-    reversed_sentence += reversed_word + ' '
+    reversed_sentence += reversed_word + ''
   end
  
   
