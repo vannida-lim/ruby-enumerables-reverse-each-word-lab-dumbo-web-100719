@@ -11,6 +11,7 @@ def reverse_each_word(sentence)
     #only add space if were not at last word
     if current_word == last_word
       break
+    end
     reversed_sentence += ' '
   end
  
